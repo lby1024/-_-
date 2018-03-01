@@ -1,0 +1,53 @@
+/* pages/caculator/caculator.wxss */
+
+.box{
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.screen{
+  flex: auto;
+  overflow: scroll;
+}
+.result {
+  padding: 9px;
+  font-size: 90rpx;
+  word-wrap: break-word;
+}
+.buttom{
+  flex: none;
+}
+.row {
+  display: flex;
+
+}
+.row button{
+  border: 1px solid black;
+  width: 190rpx;
+  margin: 0;
+  border-radius: 0rpx;
+  line-height: 150rpx;
+}
+.screen {
+  background: black;
+  color: white;
+}
+.white {
+  background: #EFEFED;
+}
+.orange {
+  background: #FC9504;
+}
+.gray {
+  background: #CFCFCF;
+}
+.shadow {
+  background: #999;
+}
+#num_0 {
+  width: 380rpx;
+}

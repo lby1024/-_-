@@ -1,0 +1,37 @@
+<!--pages/caculator/caculator.wxml-->
+<view class='box'>
+  <view class='screen'>
+    <view class='result'>{{result}}</view>
+  </view>
+  <view class='buttom'>
+    <view class='row'>
+      <button id='{{id1}}' bindtap='click_btn' hover-class='shadow' class='btn gray'>清除</button>
+      <button id='{{id2}}' bindtap='click_btn' hover-class='shadow' class='btn gray'>回退</button>
+      <button id='{{id3}}' bindtap='click_btn' hover-class='shadow' class='btn gray'><icon type='waiting'></icon></button>
+      <button id='{{id4}}' bindtap='click_btn' hover-class='shadow' class='btn orange'>÷</button>
+    </view>
+    <view class='row'>
+      <button id='{{id5}}' bindtap='click_btn' hover-class='shadow' class='btn white'>7</button>
+      <button id='{{id6}}' bindtap='click_btn' hover-class='shadow' class='btn white'>8</button>
+      <button id='{{id7}}' bindtap='click_btn' hover-class='shadow' class='btn white'>9</button>
+      <button id='{{id8}}' bindtap='click_btn' hover-class='shadow' class='btn orange'>×</button>
+    </view>
+    <view class='row'>
+      <button id='{{id9}}' bindtap='click_btn' hover-class='shadow' class='btn white'>4</button>
+      <button id='{{id10}}' bindtap='click_btn' hover-class='shadow' class='btn white'>5</button>
+      <button id='{{id11}}' bindtap='click_btn' hover-class='shadow' class='btn white'>6</button>
+      <button id='{{id12}}' bindtap='click_btn' hover-class='shadow' class='btn orange'>-</button>
+    </view>
+    <view class='row'>
+      <button id='{{id13}}' bindtap='click_btn' hover-class='shadow' class='btn white'>1</button>
+      <button id='{{id14}}' bindtap='click_btn' hover-class='shadow' class='btn white'>2</button>
+      <button id='{{id15}}' bindtap='click_btn' hover-class='shadow' class='btn white'>3</button>
+      <button id='{{id16}}' bindtap='click_btn' hover-class='shadow' class='btn orange'>+</button>
+    </view>
+    <view class='row'>
+      <button id='{{id17}}' bindtap='click_btn' hover-class='shadow' class='btn white'>0</button>
+      <button id='{{id18}}' bindtap='click_btn' hover-class='shadow' class='btn white'>.</button>
+      <button id='{{id19}}' bindtap='equal' hover-class='shadow' class='btn orange'>=</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+/* pages/form/form.wxss */
+
+page {
+  background: #F1F0F6;
+}
+.placeholder {
+  font-size: 15px;
+  color: gray;
+}
+input {
+  background: #fff;
+  height: 90rpx;
+  margin-bottom: 1px;
+  padding-left: 21rpx;
+}
+button {
+  margin: 30rpx 50rpx;
+}
+.row{
+  background-color: #fff;
+  margin-bottom: 1rpx;
+  line-height: 81rpx;
+  padding-left: 21rpx;
+}

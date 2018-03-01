@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/caculator/caculator",
+    "pages/form/form",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#000000"
+  }
+}
