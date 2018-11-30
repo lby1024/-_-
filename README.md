@@ -1,2 +1,3 @@
 ### 小程序---计算器
-![image](https://note.youdao.com/yws/api/personal/file/A798098606F840CFA8248355F68D3567?method=download&shareKey=03421c7ca0ca6dcea83eaae7a0d9fb13)
+
+![](https://images.gitee.com/uploads/images/2018/1130/222943_f0b99dd7_1540483.png "屏幕截图.png")
